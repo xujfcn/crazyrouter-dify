@@ -2,7 +2,7 @@
 
 > Connect Dify platform to 300+ AI models via Crazyrouter — Save 45% on API costs.
 
-[Crazyrouter](https://crazyrouter.com?ref=github) — One API key, all major AI models, 45% cheaper.
+[Crazyrouter](https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community?ref=github) — One API key, all major AI models, 45% cheaper.
 
 ## 💰 Price Comparison
 
@@ -16,7 +16,7 @@
 ## ⚡ Setup Steps
 
 ### 1. Get Crazyrouter API Key
-Sign up at [crazyrouter.com](https://crazyrouter.com?ref=github) and create an API key.
+Sign up at [crazyrouter.com](https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community?ref=github) and create an API key.
 
 ### 2. Configure in Dify
 
@@ -27,7 +27,7 @@ Sign up at [crazyrouter.com](https://crazyrouter.com?ref=github) and create an A
 4. Fill in:
    - **Model Name**: `gpt-4o` (or any model you want)
    - **API Key**: `sk-your-crazyrouter-key`
-   - **API Base URL**: `https://crazyrouter.com/v1`
+   - **API Base URL**: `https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community/v1`
 5. Click **Save**
 
 #### Method B: Docker Environment Variables
@@ -35,7 +35,7 @@ Sign up at [crazyrouter.com](https://crazyrouter.com?ref=github) and create an A
 docker run -d \
   -p 80:80 \
   -e OPENAI_API_KEY=sk-your-crazyrouter-key \
-  -e OPENAI_API_BASE=https://crazyrouter.com/v1 \
+  -e OPENAI_API_BASE=https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community/v1 \
   langgenius/dify-web
 ```
 
@@ -85,7 +85,7 @@ A: Yes, all advanced features work through Crazyrouter.
 A: Yes, each node can use a different model, all through one Crazyrouter key.
 
 ## 🔗 Links
-- 🌐 [Crazyrouter](https://crazyrouter.com?ref=github)
+- 🌐 [Crazyrouter](https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community?ref=github)
 - 🔮 [Dify](https://github.com/langgenius/dify)
 - 💬 [Telegram Community](https://t.me/crzrouter)
 - 🐦 [Twitter @metaviiii](https://twitter.com/metaviiii)
